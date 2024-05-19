@@ -22,7 +22,7 @@ This project simulates the movement of vehicles across different scenarios. It i
 
 ```bash
 git clone https://github.com/teja1978/vehicle-movement.git
-cd vehicles-movement-simulation
+cd vehicle-movement
 ## starting backend
 cd vehicle-management-backend
 npm i
