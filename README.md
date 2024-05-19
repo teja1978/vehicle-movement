@@ -21,7 +21,7 @@ This project simulates the movement of vehicles across different scenarios. It i
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/teja1978/vehicles-movement-simulation.git
+git clone https://github.com/teja1978/vehicle-movement.git
 cd vehicles-movement-simulation
 ## starting backend
 cd vehicle-management-backend
