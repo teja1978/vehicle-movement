@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "vehicle-management-backend/index.js",
+        "use": "@vercel/node"
+      },
+      {
+        "src": "my-app/package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "my-app/build"
+        }
+      }
+    ],
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "vehicle-management-backend/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/my-app/$1"
+      }
+    ]
+  }
+  
